@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: d0faafb7a83747c47a0aedf078fbdcc3
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 8e50d53e0564c654f88432008f06bd58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement
+    second: {fileID: 2100000, guid: f8308624f760cfe409543c1bf5cc1efb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basement floor
+    second: {fileID: 2100000, guid: 3b7359ed623ddb343b8698658272199e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue wall
+    second: {fileID: 2100000, guid: 6a304026016a3924d8730883f3cc6239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling
+    second: {fileID: 2100000, guid: f40af52ec21862147a8c1a1fe6f563cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cement wall
+    second: {fileID: 2100000, guid: 2defba082be6d5f40bf2cdcfe698205b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange wall
+    second: {fileID: 2100000, guid: 616be3b01481a0b468614a27f7bdf8a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs
+    second: {fileID: 2100000, guid: b11742c2cd98c0540b5b4611abc9b602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terrace
+    second: {fileID: 2100000, guid: 21dbc3ea55a7aeb4fa62a8804f33a46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white yellow wall
+    second: {fileID: 2100000, guid: 4a281f614c5b55e478beabe5ed789ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow wall
+    second: {fileID: 2100000, guid: 1807cf192d4811349a6e7b8bd27f3381, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1K-wall_cracked.jpg-diffuse
+    second: {fileID: 2800000, guid: 645565d55b70f684ba975b5c000eeb89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1K-wall_cracked.jpg-normal
+    second: {fileID: 2800000, guid: efb3ed7ef3dd7ac47aadcd1e06435cfb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete042C_1K-JPG_Color
+    second: {fileID: 2800000, guid: 867140fd1d84fe94cbf4e79944d90be2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete042C_1K-JPG_Metalness
+    second: {fileID: 2800000, guid: c26d85f73a7e2524c9469d8bdc6a904c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete042C_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: 333d6bc55cf6e034983a948475380a54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete042C_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 85247904de36cc6488cef19dffb99749, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete044D_1K-JPG_Color
+    second: {fileID: 2800000, guid: acc499306eb3ad54baebc36fd1baeb0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete044D_1K-JPG_Metalness
+    second: {fileID: 2800000, guid: 8b27c7d6bfb804b449d19674a7c9ead9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete044D_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: db0dc94fae431dd458f907c829ce5d61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete044D_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 167fe748ef79b664da86bdd61882016a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster007_1K-JPG_Color
+    second: {fileID: 2800000, guid: 7611f708173ed5f499c0cef3a880f984, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster007_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: a61bddda1882bdd438a654bdfca0d465, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster007_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 212e214652981b14a9e675ccb648545b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster008_1K-JPG_Color
+    second: {fileID: 2800000, guid: 226d460a81ac5784f99932f482b8cefc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster008_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: ac6d5f4a592f1cf42ac36e7c7c629f7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster008_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: ee53e0af7476f864b80fe4b52facc15b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster013_1K-JPG_Color
+    second: {fileID: 2800000, guid: 1d5438eb71b917c438ac360146668a2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster013_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: 7db8d7a5546bbf04189e66c0b943cdda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster013_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 810c3d1e995859043a5264c6e0da0e31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster015_1K-JPG_Color
+    second: {fileID: 2800000, guid: 1fd65bec958f68f43973c4cb1b169073, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster015_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: ef4edd5ac1356774d9d9d15121791e22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PaintedPlaster015_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 20205ed96d49fab44a2d6edd729a1fce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tiles133D_1K-JPG_Color
+    second: {fileID: 2800000, guid: 85de42908282f5c46b819620e67643b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tiles133D_1K-JPG_NormalGL
+    second: {fileID: 2800000, guid: cd3059ff86d2ca641872d848656fe08e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tiles133D_1K-JPG_Roughness
+    second: {fileID: 2800000, guid: 952c767205ab9b14f959276f42def44f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bricks_0015_color_1k
+    second: {fileID: 2800000, guid: d544de3db5dafdf4fa239b7998a596a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bricks_0015_normal_opengl_1k
+    second: {fileID: 2800000, guid: 5940ff96195d45e44a89e00abadef58e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bricks_0015_roughness_1k
+    second: {fileID: 2800000, guid: 4ba95f494f73f384fbb073fa65f174c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_floor_tiles_02_diff_4k
+    second: {fileID: 2800000, guid: f799fdb0cbfafca4ea5e16830e7d6e40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_floor_tiles_02_nor_gl_4k
+    second: {fileID: 2800000, guid: 6a932d9c925246849a26f68af20b92ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: large_floor_tiles_02_rough_4k
+    second: {fileID: 2800000, guid: 362eb7f5ba2119f43b4424b48146707e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sheet2_Normal
+    second: {fileID: 2800000, guid: 24790859fd4fb83498dbd0f137a09de7, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
