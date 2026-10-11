@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour{
     {
         Rigid.MoveRotation(Rigid.rotation * Quaternion.Euler(new Vector3(0, Input.GetAxis("Mouse X") * MouseSensitivity, 0)));
         Rigid.MovePosition(transform.position + (transform.forward * Input.GetAxis("Vertical") * MoveSpeed) + (transform.right * Input.GetAxis("Horizontal") * MoveSpeed));
-        if (Input.GetKeyDown("space")){
+        if (Input.GetKey(KeyCode.Space)){
             Rigid.AddForce(transform.up * JumpForce);
         }
 
@@ -43,6 +43,8 @@ public class PlayerMovement : MonoBehaviour{
         
     }
 
+    
+
     void PickUpObject(){
         if(Input.GetKeyDown(KeyCode.E)){
 
@@ -51,11 +53,15 @@ public class PlayerMovement : MonoBehaviour{
                 if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, pickUpDistance)){
                     if(hit.transform.TryGetComponent(out objectGrabbable)){
                         objectGrabbable.Grab(objectGrabPointTransform);
+
+                       
                     }
                 }
             }
 
             else{
+                
+
                 objectGrabbable.Drop();
                 objectGrabbable = null;
             }
